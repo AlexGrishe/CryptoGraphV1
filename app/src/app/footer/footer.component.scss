@@ -1,0 +1,236 @@
+.section {
+  //background: linear-gradient(
+  //339deg, #330d69 40%, #30c9cd 66%) 75% 75%;
+  background-size: cover;
+  opacity: 0.75;
+  background: linear-gradient(
+      339deg, #330d69 42%, #30c9cd 54%) 75% 75%;
+}
+
+.aboutUs-block, .contactUs-block {
+  display: flex;
+  position: relative;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.whyWe-block {
+  height: 60vh;
+  width: 58%;
+  border: solid #30c9cd;
+  border-width: 20px 20px 20px 0;
+  margin: 10vh 5vh 10vh 0;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how-works-block {
+  height: 60vh;
+  width: 38%;
+  border: solid #330d69;
+  border-width: 20px 0 20px 20px;
+  margin: 10vh 0 10vh 5vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whyWe-block__header, .how-works-block__header {
+  border-radius: 30px;
+  background-color: rgba(113, 113, 113, 0.259);
+  width: fit-content;
+  height: fit-content;
+  margin: 25px;
+}
+
+.whyWe-block__header {
+  margin: -30px 25px 15px 25px;
+}
+
+.whyWe-block__header, .how-works-block__header h1 {
+  padding: 10px 40px;
+}
+
+.whyWe-block__header h1 {
+  font-size: 36px;
+  font-family: "Arial Black", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+
+.how-works-block__header h1 {
+  font-size: 28px;
+  font-family: "Arial Black", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+
+.how-works-block__header {
+  margin-top: 40px;
+}
+
+.contactUs-block {
+  height: 15vh;
+}
+
+.contactUs-block__tagline-block {
+  width: 65%;
+  border-style: solid;
+  border-width: 8px;
+  border-color: rgba(108, 77, 130, 0.39);
+  border-radius: 10px;
+  margin: -40px 20px 40px 40px;
+  height: 14vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactUs-block__contacts-block {
+  width: 35%;
+  border-style: solid;
+  border-width: 8px;
+  border-color: rgba(108, 77, 130, 0.39);
+  border-radius: 10px;
+  margin: -40px 20px 40px 40px;
+  height: 14vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.logo8 {
+  width: 28vh;
+  height: 28vh;
+  position: absolute;
+  top: 36vh;
+  left: 97vh;
+}
+
+.whyWe-block__item {
+  display: flex;
+  align-items: center;
+  margin: 0 40px 50px 40px;
+}
+
+.whyWe-block__item___img {
+  width: 70px;
+  height: 70px;
+}
+
+.whyWe-block__item__txt {
+  font-size: 22px;
+  font-family: "Arial Black", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  margin: 10px 24px;
+}
+
+.how-works-block__item {
+  display: flex;
+  align-items: center;
+  margin: 35px 35px 40px 35px;
+}
+
+.how-works-block__item___img {
+  width: 60px;
+  height: 60px;
+}
+
+.how-works-block__item__txt {
+  font-size: 18px;
+  font-family: "Arial Black", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  margin: 8px 20px;
+}
+
+.tagline-block__header {
+
+}
+
+.tagline-block__header h2 {
+  font-size: 42px;
+  font-family: "Arial Black", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+
+.contacts-block__header h2 {
+  font-size: 16px;
+  font-family: "Arial Black", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  border-radius: 30px;
+  background-color: rgba(113, 113, 113, 0.259);
+  width: fit-content;
+  height: fit-content;
+  margin: 20px 5px 0 5px;
+}
+
+.btn:hover {
+  background: #ff009c;
+  box-shadow: 0 10px 30px rgba(233, 48, 161, 0.2);
+}
+
+.btn-tg {
+  border-width: 2px;
+  border-color: rgb(0, 136, 204);
+  border-style: solid;
+  border-radius: 15px;
+  width: 168px;
+  height: 32px;
+  color: rgb(0, 136, 204);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.btn-insta {
+  color: #b860ec;
+  line-height: 1.2;
+  text-align: center;
+  border-width: 2px;
+  border-color: rgb(138, 58, 185);
+  border-style: solid;
+  border-radius: 15px;
+}
+
+.btn-insta:hover {
+  border: 1px solid #30e9b2;
+  color: rgb(128, 22, 186);
+  background: #30c9cd;
+  box-shadow: 0 1px 11.5px 13.5px rgba(172, 77, 186, 0.36);
+}
+
+.btn-tg:hover {
+  border: 1px solid #30e9b2;
+  color: rgb(27, 66, 212);
+  background: #30c9cd;
+  box-shadow: 0 1px 11.5px 13.5px rgba(34, 50, 201, 0.36);
+  transition: 1.2s all ease;
+}
+
+.offer-btns {
+  display: block;
+  height: 50px;
+  margin: 20px;
+}
+
+.offer-btn {
+  font-size: 14px;
+  font-family: "Impact", sans-serif;
+  width: 167px;
+  height: 32px;
+  padding: 5px 30px;
+  margin-right: 10px;
+}
